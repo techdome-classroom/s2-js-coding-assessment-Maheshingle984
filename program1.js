@@ -13,6 +13,7 @@ var isValid = function(s) {
     for (const char of s) {
         if (char === '(' || char === '{' || char === '[') {
             stack.push(char);
+            console.log()
         } else {
             if (stack.length === 0 || stack.pop() !== matchingBrackets[char]) {
                 return false;
