@@ -2,12 +2,6 @@
  * @param {string} s
  * @return {number}
  */
-var romanToInt = function(s) {
-    
-};
-
-
-module.exports={romanToInt}
 
 var romanToInt = function(s) {
     // Define a mapping of Roman numerals to their integer values
